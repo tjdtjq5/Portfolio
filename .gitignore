@@ -1,0 +1,169 @@
+## -------------------------------
+## Visual Studio 기본 설정
+## -------------------------------
+
+# 사용자 관련 파일
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# 빌드 결과물
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+Debug/
+Release/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+GeneratedFiles/
+
+# Visual Studio의 임시 및 캐시 폴더
+.vs/
+.vscode/
+.vshistory/
+.vscode-test/
+
+# 테스트 결과
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NuGet 관련
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.vsix
+
+# ReSharper / Rider 관련
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+*.sln.iml
+
+# Visual Studio Code 워크스페이스
+*.code-workspace
+
+# ASP.NET 관련
+App_Data/
+PublishProfiles/
+wwwroot/lib/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Entity Framework 관련
+*.dbmdl
+*.bak
+*.mdf
+*.ldf
+
+# MSBuild, StyleCop, NCrunch
+*.Build.Caches/
+nCrunchTemp_*
+*.ncrunchsolution
+*.DotSettings
+stylecop.*
+*.cachefile
+
+# 기타 임시 파일
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+*.log
+*.tlog
+*.vsidx
+*.db
+*.opendb
+
+# 크래시 덤프
+*.dmp
+
+# Local history / Visual Studio Workspace
+.vs/
+.vsconfig
+VSWorkspaceState.json
+*.VC.db
+*.VC.VC.opendb
+
+# IIS / Web 관련
+_IISExpress/
+iisexpress.log
+applicationhost.config
+
+# Windows 관련
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 백업 파일
+*.bak
+*.backup
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# 압축 및 배포 파일
+*.zip
+*.tar.gz
+*.7z
+*.rar
+
+# 기타 IDE 관련
+*.DS_Store
+*.swp
+*.swo
+*.class
+*.jar
+*.war
+*.ear
+
+## -------------------------------
+## Unity 프로젝트에서 함께 사용할 경우
+## -------------------------------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+AssetStoreTools*
+Assets/AssetStoreTools*
+*.pidb
+*.booproj
+*.svd
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+*.db
+*.opendb
+*.meta
+*.pdb
+*.mdb
+*.bak
+*.swp
+*.orig
+*.idb
+*.tlog
+sysinfo.txt
